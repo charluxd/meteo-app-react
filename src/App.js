@@ -1,7 +1,5 @@
 import React from "react";
 import SearchEngine from "./SearchEngine";
-import Forecast from "./Forecast";
-import Weather from "./Weather";
 
 import "./App.css";
 
@@ -17,14 +15,6 @@ export default function App() {
         </div>
 
         <SearchEngine />
-        <Weather />
-        <div class="week-forecast">
-          <Forecast />
-          <Forecast />
-          <Forecast />
-          <Forecast />
-          <Forecast />
-        </div>
       </div>
       <footer>
         <p>
@@ -35,7 +25,8 @@ export default function App() {
           and is open-sourced on{" "}
           <a href="https://github.com/charluxd/meteo-app-rect" target="_blank">
             Github
-          </a>.
+          </a>
+          .
         </p>
       </footer>
     </div>
