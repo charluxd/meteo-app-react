@@ -48,8 +48,21 @@ img {
 
 .temperature-now {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -ms-flex-align: start;
+}
+
+.temperature-icon {
+  display: inline-block;
+}
+
+.temperature-degree {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.temperature-unit {
+  position: relative;
+  top: 12px;
 }
 
 .daily-forecast {
